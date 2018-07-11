@@ -9,8 +9,6 @@ CoinyBlock iOS retro clicker game
 * [Web](http://coinyblock.com/)
 * [App Store](https://itunes.apple.com/app/id914537554)
 
-![screenshot 1](https://github.com/chriscomeau/CoinyBlock/blob/master/screenshot1.png)
-
 ![screenshot 2](http://coinyblock.com/images/gif_title5.gif)
 ![screenshot 3](http://coinyblock.com/images/gif_gameplay5.gif)
 ![screenshot 4](http://coinyblock.com/images/gif_chest2_3.gif)
