@@ -8,7 +8,6 @@ CoinyBlock iOS retro clicker game
 * Skyriser Media, 2017
 * Objective-C / Swift
 * SpriteKit, UIKit, CoreAnimation
-* TodayWidget extension
 * StickerPack extension
 
 **Note**: This project is for reference only and does not compile. Some image/sound assets and libraries were removed.
