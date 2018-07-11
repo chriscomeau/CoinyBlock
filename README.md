@@ -11,6 +11,8 @@ CoinyBlock iOS retro clicker game
 * TodayWidget extension
 * StickerPack extension
 
+**Note**: This project is for reference only and does not compile. Some image/sound assets and libraries were removed.
+
 
 ##### Links
 
@@ -24,9 +26,4 @@ CoinyBlock iOS retro clicker game
 
 ![screenshot 2](http://coinyblock.com/images/gif_title5.gif)
 ![screenshot 4](http://coinyblock.com/images/gif_chest2_3.gif)
-
-
-
-**Note**: This project is for reference only and does not compile. All image/sound assets and libraries were removed.
-
-_(Coming soon...)_
+	
