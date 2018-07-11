@@ -3,7 +3,7 @@ CoinyBlock iOS retro clicker game
 
 ![logo](https://github.com/chriscomeau/Portfolio/blob/master/images/coinyblock_icon.jpg)
 
-##### Features
+##### Notes
 
 * Skyriser Media, 2017
 * Objective-C / Swift
