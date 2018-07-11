@@ -1,0 +1,105 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#include <stdlib.h>
+#import <AVFoundation/AVFoundation.h>
+#import <SpriteKit/SpriteKit.h>
+#import "NSString+Utilities.h"
+#import "UIView+GCLibrary.h"
+#import "SoundManager.h"
+#import "FISoundEngine.h"
+// #import <Parse/Parse.h>
+//#import "PFFacebookUtils.h"
+//#import "PFTwitterUtils.h"
+#import "NSError+Utilities.h"
+
+//#import <FBSDKCoreKit/FBSDKCoreKit.h>
+//#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
+#import "SIAlertView.h"
+#import <GAI.h>
+#import "STSpriteKit.h"
+//#import "TouchPriority.h"
+#import "UIImage+CJImageMerge.h"
+#import "NSArray+Shuffle.h"
+#import "UIAlertView+Blocks.h"
+//#import <EXTScope.h>
+//#import "GameKitHelper.h"
+#import "GameCenterManager.h"
+//#import "TWTSideMenuViewController.h"
+#import "NSDate+Utilities2.h"
+#import "NSDate-Utilities.h"
+#import "NSArray+Random.h"
+#import "CPAnimationSequence.h"
+//#import "UIImage+Resize.h"
+#import "UIImage+Resizing.h"
+#import "NSArray+IndexHelper.h"
+#import "NSDictionary+IndexHelper.h"
+//#import "SDImageCache.h"
+//#import "UIImageView+WebCache.h"
+#import "UIButton+Extensions.h"
+//#import "SVWebViewController.h"
+#import "UIImage+Blur.h"
+#import "UIView+Snapshot.h"
+#import "POP.h"
+#import "EDColor.h"
+#import "UIView+Shake.h"
+//#import "LNNotificationsUI_iOS7.1.h"
+//#import "NSTimer+Blocks.h"
+//#import "MKStoreKit.h"
+#import "IAPHelper.h"
+#import "IAPShare.h"
+#import "SKProduct+priceAsString.h"
+
+//DTFoundation
+//#import "UIColor+DTDebug.h"
+//#import "UIView+DTDebug.h"
+//#import "DTVersion.h"
+//#import "NSData+DTCrypto.h"
+//#import "NSString+DTPaths.h"
+//#import "DTAnimatedGIF.h"
+
+
+//#import "AFNetworking/AFNetworking.h"
+#import "AFNetworking.h"
+
+
+//#import "UIControl+BlocksKit.h"
+
+//#import <sqlite3.h>
+//#import "FMDB.h"
+//#import "FMDBHelpers.h"
+
+
+//#import <VungleSDK/VungleSDK.h>
+
+//project
+#import "Config.h"
+#import "Helpers.h"
+
+#import "CBAppDelegate.h"
+#import "CBSkinManager.h"
+
+
+//disable nslog
+#ifndef DEBUG
+#define NSLog(...);
+#endif
+
+
+//Obfuscate
+
+#endif

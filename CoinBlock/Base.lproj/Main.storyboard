@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+    </dependencies>
+    <scenes>
+        <!--game-->
+        <scene sceneID="G4f-jx-AKV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="game" storyboardName="Game" referencedIdentifier="game" id="jsJ-4A-Dfr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSP-xV-fhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="310" y="-1441"/>
+        </scene>
+        <!--Root-->
+        <scene sceneID="ugX-X3-iNZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="root" storyboardName="Root" id="Jae-ev-W24" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fh3-Ns-20E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338.5" y="-1292"/>
+        </scene>
+        <!--load-->
+        <scene sceneID="T9a-ef-oYZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="load" storyboardName="Loading" referencedIdentifier="load" id="MsZ-BH-bnn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VSi-Yj-FRx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="-2055"/>
+        </scene>
+        <!--title-->
+        <scene sceneID="hxk-YB-EQ2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="title" storyboardName="Title" referencedIdentifier="title" id="fIP-vN-ZIk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Xj-FL-miq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-469" y="-766"/>
+        </scene>
+        <!--win-->
+        <scene sceneID="X00-Jq-QZO">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="win" storyboardName="Win" referencedIdentifier="win" id="haT-UM-FeP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="faQ-AO-N2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="-669"/>
+        </scene>
+        <!--settings-->
+        <scene sceneID="PD4-ks-mTO">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="settings" storyboardName="Settings" referencedIdentifier="settings" id="DWD-t0-5vA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12s-fn-yom" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="-810"/>
+        </scene>
+        <!--cheat-->
+        <scene sceneID="8E4-96-KIV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="cheat" storyboardName="Cheat" referencedIdentifier="cheat" id="94j-1R-DwV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tjk-Cc-HC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576" y="-669"/>
+        </scene>
+        <!--story-->
+        <scene sceneID="TvA-EG-l76">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="story" storyboardName="Story" referencedIdentifier="story" id="EGN-DP-jzn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SfI-Lh-tc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="239"/>
+        </scene>
+        <!--ending-->
+        <scene sceneID="45e-5q-fCs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ending" storyboardName="Ending" referencedIdentifier="ending" id="PHP-Eu-OMl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85q-pZ-uzS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="308"/>
+        </scene>
+        <!--transition-->
+        <scene sceneID="xP3-bp-csK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="transition" storyboardName="Transition" referencedIdentifier="transition" id="JJS-GR-rOL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N7g-Ir-UsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280.5" y="206"/>
+        </scene>
+        <!--about-->
+        <scene sceneID="H0W-AR-oEL">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="about" storyboardName="About" referencedIdentifier="about" id="mYb-YJ-3Zb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gad-eW-17z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="-17"/>
+        </scene>
+        <!--premium-->
+        <scene sceneID="lTP-om-mMg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="premium" storyboardName="Premium" referencedIdentifier="premium" id="DKl-jZ-1ru" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nXx-X2-JHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

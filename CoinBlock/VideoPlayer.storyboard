@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Video Player View Controller-->
+        <scene sceneID="Z9V-io-E4U">
+            <objects>
+                <viewController storyboardIdentifier="video" id="sQO-Mf-zij" customClass="CBVideoPlayerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vml-GY-sKs"/>
+                        <viewControllerLayoutGuide type="bottom" id="1HN-DQ-arH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yx8-2x-fXr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="curtain_left" translatesAutoresizingMaskIntoConstraints="NO" id="Kxi-L0-GTS">
+                                <frame key="frameInset" width="160" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="curtain_right" translatesAutoresizingMaskIntoConstraints="NO" id="QMd-ZX-0Zk">
+                                <frame key="frameInset" minX="160" width="160" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FFD-aq-mad" customClass="CBConfettiView">
+                                <frame key="frameInset" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ray4" translatesAutoresizingMaskIntoConstraints="NO" id="MS1-mA-VvM">
+                                <frame key="frameInset" minX="-340" minY="-216" width="1000" height="1000"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black" translatesAutoresizingMaskIntoConstraints="NO" id="Lzd-uo-D7G">
+                                <frame key="frameInset" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scanline" translatesAutoresizingMaskIntoConstraints="NO" id="G4M-7k-fyw">
+                                <frame key="frameInset" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0H3-Eh-mGk">
+                                <frame key="frameInset" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RtU-EP-D3J" customClass="YTPlayerView">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWN-lP-2Xy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Nu0-i1-cUP"/>
+                                    <constraint firstAttribute="width" constant="200" id="pBE-hF-Ojr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtV-qC-T75">
+                                <frame key="frameInset" minX="27" minY="49" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="actionFullButton:" destination="sQO-Mf-zij" eventType="touchUpInside" id="oGo-TE-GT2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RtU-EP-D3J" firstAttribute="leading" secondItem="Yx8-2x-fXr" secondAttribute="leading" id="1c9-yC-5Kd"/>
+                            <constraint firstItem="RtU-EP-D3J" firstAttribute="top" secondItem="Vml-GY-sKs" secondAttribute="bottom" id="Gzy-AY-Nfx"/>
+                            <constraint firstItem="ZWN-lP-2Xy" firstAttribute="leading" secondItem="Yx8-2x-fXr" secondAttribute="leadingMargin" constant="10" id="HfC-HY-MFK"/>
+                            <constraint firstItem="1HN-DQ-arH" firstAttribute="top" secondItem="RtU-EP-D3J" secondAttribute="bottom" id="N02-ev-sEC"/>
+                            <constraint firstAttribute="trailing" secondItem="RtU-EP-D3J" secondAttribute="trailing" id="RAM-HV-aXd"/>
+                            <constraint firstItem="ZWN-lP-2Xy" firstAttribute="top" secondItem="Vml-GY-sKs" secondAttribute="bottom" constant="30" id="oa5-6t-S9H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confettiView" destination="FFD-aq-mad" id="KK4-jx-HFG"/>
+                        <outlet property="curtainLeft" destination="Kxi-L0-GTS" id="4fE-nA-QEa"/>
+                        <outlet property="curtainRight" destination="QMd-ZX-0Zk" id="1Db-Hb-aZ7"/>
+                        <outlet property="darkImage" destination="Lzd-uo-D7G" id="1Vv-2x-PQY"/>
+                        <outlet property="fullButtton" destination="gtV-qC-T75" id="gNz-4A-ym6"/>
+                        <outlet property="playLabel" destination="ZWN-lP-2Xy" id="la3-rd-9xz"/>
+                        <outlet property="playerView" destination="RtU-EP-D3J" id="sU5-jp-Z5Y"/>
+                        <outlet property="scanline" destination="G4M-7k-fyw" id="ZVL-IV-4eh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="glH-OM-id6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-282.5" y="404.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="black" width="320" height="568"/>
+        <image name="curtain_left" width="160" height="568"/>
+        <image name="curtain_right" width="160" height="568"/>
+        <image name="ray4" width="1000" height="1000"/>
+        <image name="scanline" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

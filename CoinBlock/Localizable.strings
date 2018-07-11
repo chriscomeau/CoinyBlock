@@ -1,0 +1,200 @@
+//
+//  Localizable.strings
+//  Outpost
+//
+//  Created by Skyriser Media on 2014-01-30.
+//  Copyright (c) 2014 Skyriser Media. All rights reserved.
+//
+
+//UI
+"kStringCancel" = "Cancel";
+"kStringOK" = "OK";
+//"kStringOK" = "Okay";
+"kStringError" = "Error";
+"kStringButtonOpenInSafari" = "Open in Safari";
+"kStringClose" = "Back";
+"kStringMaybeLater" = "Maybe later...";
+
+//Alerts
+"kStringLocationUnavailableError" = "Location is not available. You can enable Location Services in:\nSettings > Privacy > Location Services.";
+
+//"kStringNotifPrimeTitle" = "Please Turn on Notifications";
+//"kStringNotifPrimeDesc" = "This way you'll know when your hearts are refilled and when free gifts are available.";
+//"kStringNotifPrimeCancel" = "Not Now";
+//"kStringNotifPrimeOk2" = "OK, I understand!";
+////"kStringNotifPrimeOk2" = "OK, I understand! \u1F44D"; //thumbs emoji
+
+"kStringNotifPrimeTitle" = "Let us send you Push Notifications?";
+"kStringNotifPrimeDesc" = "We'll notify you when you have rewards waiting to be collected.";
+//"kStringNotifPrimeCancel" = "No, Thanks";
+//"kStringNotifPrimeOk2" = "Yes, Please";
+"kStringNotifPrimeCancel" = "Cancel";
+"kStringNotifPrimeOk2" = "OK";
+
+//"kStringNotifTitle" = @"Coiny Block tip of the day";
+//"kStringNotifTitle" = "Tip of the day:";
+//"kStringNotifTitle" = "Message from Coiny Block:";
+//"kStringNotifTitle" = "PROTIP:";
+//"kStringNotifTitleReward" = "FREE GIFT!";
+"kStringNotifTitle" = "Protip:";
+"kStringNotifTitleReward" = "Free gift!";
+"kStringNotifTitleReward2" = "Phat lewt!";
+"kStringNotifTitleReward3" = "Good news!";
+"kStringFreeGiftButton" = "Free Gift";
+
+"kStringLoading" = "Loading...";
+"kStringLoading1" = "Loading...";
+"kStringLoading2" = "Loading...";
+"kStringLoading3" = "Loading...";
+
+//"kStringCheckUpdate" = "Checking for updates...";
+"kStringCheckUpdate" = "Checking for new content...";
+
+"kStringLoadingPreparingShort" = "Preparing game data";
+"kStringLoadingPreparing" = "Preparing game data...";
+"kStringLoadingPreparingCount" = "Preparing game data (%d/%d)";
+"kStringLoadingPreparingCount2" = "Preparing game data (%d%%)";
+
+
+"kStringLoadingSpace" = "There is not enough available storage to continue. You can manage your storage in Settings and try again.";
+"kStringSimulator" = "Not available in Simulator";
+"kStringNotImplemented" = "Feature coming soon.";
+"kStringConnectionError" = "Connection error";
+"kStringUnknownError" = "Unknown error";
+"kStringOffline" = "No internet connection found";
+"kStringPayments" = "Payments unavailable";
+"kStringFacebookError" = "Could not connect with Facebook.";
+"kStringFacebookSignupError" = "Could not sign in with Facebook.";
+"kStringFacebookSignupError203" = "The email in this Facebook account is already registered. Please log in manually.";
+"kStringSignInError" = "Could not sign in.";
+"kStringSignUpError" = "Could not sign up.";
+"kStringConnecting" = "Connecting...";
+"kStringSearching" = "Searching...";
+"kStringSuccess" = "Success";
+//"kStringThanks" = "Thanks!";
+"kStringThanks" = "Thank you!";
+"kStringThanksSupport" = "Thank you for your support!";
+"kStringThanksDesc" = "The Block has been unlocked.";
+
+"kStringEnding" =  "Thank you, Hero!\n<color1>Nega-Brain</color1> has been defeated and the <color1>Coins</color1> have been saved!\n\nNow, prepare to enter\nthe <color1>Minus World</color1>...";
+"kStringEnding2" =  "ZERO DEATHS!!!\nYou are a <color1>SUPER PLAYER</color1>!\n\nNow, prepare to enter\nthe <color1>Minus World</color1>...";
+
+"kStringOuch" = "Ouch, don't touch the <color1>Enemies</color1> or <color1>Spikes</color1>! They'll slow down your progress and drain your life hearts.\n";
+
+"kStringInvalidCheat" = "Invalid cheat code.";
+"kStringGoodCheat" = "Cheat code accepted!";
+"kStringErrorValidateNameGeneric" = "Please enter a valid name.";
+"kStringErrorValidateEmailGeneric" = "Please enter a valid email.";
+"kStringErrorValidateEmailSame" = "Please enter a different email than your own.";
+"kStringErrorValidatePasswordGeneric" = "Please enter a valid password.";
+"kStringErrorValidatePasswordInvalidCharacters" = "Please enter a valid password. It contains invalid characters.";
+"kStringErrorValidatePasswordShort" = "Please enter a valid password. It must contain at least 6 characters.";
+"kStringErrorValidatePasswordMatch" = "Passwords don't match.";
+"kStringSaveImageError" = "Could not save image";
+"kStringNotLoggedIn" = "Not logged in";
+"kStringErrorNoVideo" = "Could not load video. Please try again later.";
+"kStringTooSoon" = "Video not yet available. Please try again later.";
+"kStringUploadCamera" = "Take Photo";
+"kStringUploadAlbum" = "Choose Existing";
+//"kStringNotificationMessage1" = "Ch-ching! Coins are now ready for you!";
+//"kStringNotificationMessage2" = "Ch-ching! So many coins are waiting for you!";
+"kStringNotificationButton" = "View";
+//"kStringLoadingWelcome" = "Welcome! ";
+//"kStringLoadingWelcome" = "Welcome! This won't take long...";
+//"kStringLoadingWelcome" = "Welcome! This may take a minute...";
+"kStringLoadingWelcome" = "This will only take a few seconds...";
+//"kStrinLoadingWelcome" = "Welcome! This will only happen once.";
+"kStringLoadingFirst" = "New phone, who dis?";
+"kStringWatchAd" = "Watch"; //Continue"; //"Watch"; //"Watch ad"; //"Refill"; //"Watch video"; //"Get"
+//"kStringTry" = "Try Me";
+"kStringTry" = "Try for free";
+//"kStringFreeUnlock" = "Free Unlock";
+"kStringResume" = "Resume"; //"Play"
+"kStringContinue" = "Continue";
+//"kStringGotIt" = "Got it!";
+//"kStringGotIt" = "Okay!";
+"kStringGotIt" = "OK";
+
+"kStringContinueNext" = "Next World"; //Next World!" //"Continue";
+"kStringContinueCollect" = "Collect"; //"Collect!";
+//"kStringGameOver" = "Game Over";
+"kStringGameOver" = "Continue?";
+//"kStringRestartButton" = "Restart World";
+"kStringRestartButton" = "Give Up"; //"Retry";
+
+"kStringRefill" = "Refill";
+"kStringRefillPotions" = "Potion";
+"kStringPlay" = "Play"; //"Select";
+
+"kStringNotEnough" = "You need to complete more <color1>Worlds</color1> to unlock this Block.";
+"kStringNotEnoughEnding" = "Complete <color1>World %d</color1> to unlock this Block.";
+"kStringNotEnoughSecret" = "Its a <color1>secret</color1> to everybody.";
+"kStringNotEnoughShare" = "<color1>Share</color1> Coiny Block with your friends to unlock this Block.\n\nYou can also complete more <color1>Worlds</color1> to unlock this Block.";
+"kStringNotEnoughFollow" = "<color1>Follow</color1> us on <color1>Facebook</color1> or <color1>Twitter</color1> to unlock this Block.\n\nYou can also complete more <color1>Worlds</color1> to unlock this Block.";
+"kStringNotEnoughRate" = "<color1>Rate</color1> Coiny Block to unlock this Block.\n\nYou can also complete more <color1>Worlds</color1> to unlock this Block.";
+"kStringNotEnoughVideo" = "Watch a <color1>short video</color1> to unlock this Block.\n\nYou can also complete more <color1>Worlds</color1> to unlock this Block.";
+"kStringPremiumSkin" = "This is a <color1>VIP</color1> exclusive Block.\nGo <color1>VIP</color1> to unlock this Block.";
+
+"kStringHateIt" = "Feedback"; //No"; //Meh..."; ///Hate it
+"kStringLoveIt" = "Love it!";
+"kStringEnjoying" = "Are you enjoying Coiny Block?\nWe'd love to hear from you!";
+
+"kStringPremiumButton" = "VIP - No Ads"; //Go VIP"; //"Go VIP...";
+//"kStringPremiumButton" = "Go Deluxe...";
+
+//"kStringPremiumAsk" = "Go <color1>VIP</color1> to unlock a bunch of <color1>awesome stuff</color1>?";
+"kStringPremiumAsk" = "Go <color1>VIP</color1> to disable <color1>ads</color1> and unlock a bunch of <color1>awesome stuff</color1>?";
+
+"kStringMailingAsk" = "Register for our <color1>Newsletter</color1> and get the latest news on our <color1>games</color1>?";
+//"kStringMailingButton" = "OK";
+"kStringMailingButton" = "Sign Up!";
+
+"kStringPremiumHeartAsk" = "Go <color1>VIP</color1> to unlock an extra <color1>Heart</color1> and a bunch of <color1>awesome stuff</color1>?";
+
+"kStringHowToPlay" = "How to play";
+//"kStringHowToPlay" = "How to play 🌈⭐️";
+
+//rainbow coins
+
+
+"kStringIAPUnknownError" = "Could not process purchase. Please try again later.";
+"kStringIAPRestoreError" = "Could not process restore.";
+"kStringIAPRestoreSuccess" = "Success";
+
+"kStringIAPMessageCancel" = "Maybe later...";
+//"kStringIAPMessageOK" = "Buy (%@)";
+"kStringIAPMessageOK" = "%@";
+
+"kStringShareSubject" = "Coiny Block for iOS!";
+"kStringShareSubjectCheat" = "New cheat code for Coiny Block for iOS!";
+"kStringShareMessage" = "Play Coiny Block, a fun Retro Clicker for iOS! #coinyblock #retro #clicker #iosgames\n";
+"kStringShareMessageCheat" = "New cheat code for Coiny Block, a fun Retro Clicker for iOS! #coinyblock #retro #clicker #cheatcode\n";
+
+//"kStringIAPMessageNoAds" = "• Permanent <color1>Coin Doubler</color1> (2x)\n• Extra life <color1>Heart</color1>\n• Exclusive <color1>Block</color1> and <color1>Enemies</color1>\n• More <color1>Power-ups</color1>";
+//"kStringIAPMessageNoAds" = "• Permanent <color1>Coin Doubler</color1> (2x)\n• Extra life <color1>Heart</color1>\n• Exclusive <color1>Block</color1> and <color1>Enemies</color1>\n• More frequent <color1>Power-ups</color1>\n• More frequent <color1>Rewards</color1>";
+//"kStringIAPMessageNoAds" = "• No random <color1>Ads</color1>\n• Permanent <color1>Coin Doubler</color1> (2x)\n• Extra life <color1>Heart</color1>\n• Exclusive <color1>Block</color1> and <color1>Enemies</color1>\n• More <color1>Power-ups</color1>\n• More frequent <color1>Free Gifts</color1>";
+"kStringIAPMessageNoAds" = "• No random or banner <color1>Ads</color1>\n• Permanent <color1>Coin Doubler</color1> (2x)\n• Extra life <color1>Heart</color1>\n• Exclusive <color1>Block</color1> and <color1>Enemies</color1>\n• More <color1>Power-ups</color1>\n• More frequent <color1>Free Gifts</color1>";
+
+"kStringIAPMessageDoubler" = "In a hurry? Double your peasure, double your fun, with the Coin Doubler!";
+
+
+"kStringGamecenterOffline" = "Game Center is not available";
+
+"kStringGamecenterAsk" = "Would you like to use Game Center?";
+"kStringGamecenterAskTitle" = "Game Center";
+"kStringGamecenterAskOK" = "OK";
+
+//"kStringFeatureLocked" = "This feature is locked until World 2.";
+"kStringFeatureLocked" = "Power-ups are unlocked\nat World 2-1.";
+
+//"kStringCoffeeMessage" = "Do you like this game? If you're feeling generous, buy me a <color1>coffee</color1> and help support a part time <color1>indie</color1> game developer from Montreal, Canada.\n\nYou'll also get a free <color1>Heart</color1> refill.";
+//"kStringCoffeeMessage" = "Do you like this game?\nBuy me a <color1>coffee</color1> and help support a part time <color1>indie</color1> game developer from Montreal, Canada.\n\nYou'll also get a free <color1>Heart</color1> refill.";
+"kStringCoffeeMessage" = "Do you like this game?\nBuy me a <color1>coffee</color1> and help support a part time <color1>indie</color1> game developer from Montreal, Canada.";
+"kStringCoffeeMessage2" = "Do you like this game?\nBuy me a <color1>coffee</color1> and help support a part time <color1>indie</color1> game developer from Montreal, Canada.\n\n<color1>Bitcoins</color1> are also accepted!";
+
+
+//"kStringStory1" = "In the year 198X... \nThe evil Nega-Brain has stolen all the world's Coins.\n\nHero, you must defeat him\nand save the Coins!";
+"kStringStory1" = "In the year 198X... \nThe evil Nega-Brain has stolen all the world's Coins.\n\nHero, you must defeat him\nand save the Coins!";
+"kStringStory2" = "The path is difficult Hero, but don't give up. You have the power to save the Coins and defeat Nega-Brain!";
+"kStringStory3" = "The path is difficult Hero, but don't give up. You have the power to save the Coins and defeat Nega-Brain!";
+//"kStringStory3" = "You're doing great Hero, keep saving the Coins!\n\nWatch out for new Enemies.";

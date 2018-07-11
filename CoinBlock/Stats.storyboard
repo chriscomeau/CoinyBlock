@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Stats View Controller-->
+        <scene sceneID="zmQ-GQ-Q9X">
+            <objects>
+                <viewController storyboardIdentifier="stats" id="KmJ-Jb-dhS" customClass="CBStatsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TcH-FG-9VP"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Fi-wn-WaE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DLT-od-bLN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_settings" translatesAutoresizingMaskIntoConstraints="NO" id="7gX-Lo-uJV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="curtain_left" translatesAutoresizingMaskIntoConstraints="NO" id="FmJ-qw-ukz">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="curtain_right" translatesAutoresizingMaskIntoConstraints="NO" id="H4u-qs-VMs">
+                                <rect key="frame" x="160" y="0.0" width="160" height="568"/>
+                            </imageView>
+                            <view userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8EA-IX-pp9" customClass="CBConfettiView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud4" translatesAutoresizingMaskIntoConstraints="NO" id="XWm-sv-uUC">
+                                <rect key="frame" x="40" y="220" width="240" height="44"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backTop" translatesAutoresizingMaskIntoConstraints="NO" id="VLS-LG-g3f">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ray4" translatesAutoresizingMaskIntoConstraints="NO" id="Bru-Rl-ur3">
+                                <rect key="frame" x="-340" y="-216" width="1000" height="1000"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ir9-Oa-39t">
+                                <rect key="frame" x="60" y="2" width="200" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhB-6Q-QSq" userLabel="Button menu back">
+                                <rect key="frame" x="12" y="2" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OPZ-By-ixM"/>
+                                    <constraint firstAttribute="width" constant="40" id="XGH-c8-g87"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionBack:" destination="KmJ-Jb-dhS" eventType="touchUpInside" id="nQl-jv-Si7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lA-5n-Dgk" userLabel="Button menu">
+                                <rect key="frame" x="20" y="11" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="Abl-83-QLz"/>
+                                    <constraint firstAttribute="height" constant="24" id="lh2-1L-9dA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" backgroundImage="podium2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionBack:" destination="KmJ-Jb-dhS" eventType="touchUpInside" id="HWE-PG-yDS"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="4bz-vH-c1v">
+                                <rect key="frame" x="0.0" y="43" width="320" height="525"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="40" id="gtA-t7-Xkx">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="40"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gtA-t7-Xkx" id="gwO-lY-sKJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="KmJ-Jb-dhS" id="Xdm-tA-hGQ"/>
+                                    <outlet property="delegate" destination="KmJ-Jb-dhS" id="bj0-4T-VzR"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black" translatesAutoresizingMaskIntoConstraints="NO" id="eZH-hR-V08">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scanline" translatesAutoresizingMaskIntoConstraints="NO" id="Ya7-m1-w0b">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4bz-vH-c1v" firstAttribute="top" secondItem="mhB-6Q-QSq" secondAttribute="bottom" constant="1" id="5aa-8U-tTJ"/>
+                            <constraint firstItem="4bz-vH-c1v" firstAttribute="leading" secondItem="DLT-od-bLN" secondAttribute="leading" id="CCK-4Y-ddw"/>
+                            <constraint firstItem="5lA-5n-Dgk" firstAttribute="top" secondItem="DLT-od-bLN" secondAttribute="top" constant="11" id="KqH-d5-Peh"/>
+                            <constraint firstItem="5lA-5n-Dgk" firstAttribute="leading" secondItem="DLT-od-bLN" secondAttribute="leading" constant="20" id="LyX-TH-g96"/>
+                            <constraint firstAttribute="bottom" secondItem="4bz-vH-c1v" secondAttribute="bottom" id="VG8-k0-avM"/>
+                            <constraint firstItem="mhB-6Q-QSq" firstAttribute="leading" secondItem="DLT-od-bLN" secondAttribute="leading" constant="12" id="b2W-26-BX1"/>
+                            <constraint firstItem="mhB-6Q-QSq" firstAttribute="top" secondItem="DLT-od-bLN" secondAttribute="top" constant="2" id="pbD-oI-pDT"/>
+                            <constraint firstAttribute="trailing" secondItem="4bz-vH-c1v" secondAttribute="trailing" id="xgF-dX-gru"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="H5J-W2-mTB"/>
+                    <connections>
+                        <outlet property="backButton" destination="5lA-5n-Dgk" id="vFu-pl-rVp"/>
+                        <outlet property="backButton2" destination="mhB-6Q-QSq" id="96r-ca-iCQ"/>
+                        <outlet property="cloud1" destination="XWm-sv-uUC" id="olk-on-ZB5"/>
+                        <outlet property="confettiView" destination="8EA-IX-pp9" id="Waz-qJ-Ajh"/>
+                        <outlet property="curtainLeft" destination="FmJ-qw-ukz" id="noi-9K-Rqx"/>
+                        <outlet property="curtainRight" destination="H4u-qs-VMs" id="3HV-PK-YZf"/>
+                        <outlet property="darkImage" destination="eZH-hR-V08" id="Rp0-xW-yk7"/>
+                        <outlet property="scanline" destination="Ya7-m1-w0b" id="JQL-Ah-ppI"/>
+                        <outlet property="shineImageView" destination="Bru-Rl-ur3" id="GGc-HD-S97"/>
+                        <outlet property="tableView" destination="4bz-vH-c1v" id="ahT-1B-yU8"/>
+                        <outlet property="titleLabel" destination="Ir9-Oa-39t" id="GCc-jX-a9g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLl-uG-OAm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="-17"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backTop" width="320" height="70"/>
+        <image name="background_settings" width="320" height="568"/>
+        <image name="black" width="320" height="568"/>
+        <image name="cloud4" width="240" height="44"/>
+        <image name="curtain_left" width="160" height="568"/>
+        <image name="curtain_right" width="160" height="568"/>
+        <image name="podium2" width="40" height="40"/>
+        <image name="ray4" width="1000" height="1000"/>
+        <image name="scanline" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

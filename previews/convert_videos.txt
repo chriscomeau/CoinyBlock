@@ -1,0 +1,44 @@
+clear;
+
+echo "Starting..."
+
+#rm iPhone_4.mp4;
+#rm iPhone_47.mp4;
+#rm iPhone_55.mp4;
+rm iPad_129.mp4;
+
+
+#old
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=640:1136 iPhone_4.mp4;
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=750:1334 iPhone_47.mp4;
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=1080:1920 iPhone_55.mp4;
+
+#good
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=640:1136,setsar=1:1 iPhone_4.mp4;
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=750:1334,setsar=1:1 iPhone_47.mp4;
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=1080:1920,setsar=1:1 iPhone_55.mp4;
+
+
+#ipad
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=900:1200,setsar=1:1 iPad_129.mp4;
+
+
+#http://help.apple.com/itunes-connect/developer/#/dev4e413fcb8
+#12.9-Inch Retina Display Screenshots
+#2732 x 2048 (4:3 aspect ratio)
+#1200 x 1600 pixels for portrait
+#1600 x 1200 pixels for landscape
+#900 x 1200 pixels for portrait
+#1200 x 900 pixels for landscape
+
+
+#https://superuser.com/questions/547296/resizing-videos-with-ffmpeg-avconv-to-fit-into-static-sized-player
+#ffmpeg -i input.mp4 -r 30 -strict -2 -vf scale=900:1200,setsar=1:1 iPad_129.mp4;
+#ffmpeg -i input.mp4 -vf "scale=900:1200:force_original_aspect_ratio=increase,crop=900:1200" iPad_129.mp4
+
+#ipad good!
+width=900
+height=1200
+ffmpeg -i input.mp4 -filter:v "scale=iw*min($width/iw\,$height/ih):ih*min($width/iw\,$height/ih), pad=$width:$height:($width-iw*min($width/iw\,$height/ih))/2:($height-ih*min($width/iw\,$height/ih))/2" iPad_129.mp4
+
+echo "Done..."
