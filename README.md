@@ -24,5 +24,6 @@ CoinyBlock iOS retro clicker game
 ##### Screenshot
 
 ![screenshot 1](http://coinyblock.com/images/gif_title5.gif)
-![screenshot 2](http://coinyblock.com/images/gif_chest2_3.gif)
+![screenshot 2](https://github.com/chriscomeau/CoinyBlock/blob/master/images/gif_gameplay5.gif)
+![screenshot 3](http://coinyblock.com/images/gif_chest2_3.gif)
 	
