@@ -3,7 +3,16 @@ CoinyBlock iOS retro clicker game
 
 ![logo](https://github.com/chriscomeau/Portfolio/blob/master/images/coinyblock_icon.jpg)
 
-(Skyriser Media, 2017, Objective-C, Swift, SpriteKit, TodayWidget, StickerPack)
+##### Features
+
+* Skyriser Media, 2017
+* Objective-C / Swift
+* SpriteKit, UIKit, CoreAnimation
+* TodayWidget extension
+* StickerPack extension
+
+
+##### Links
 
 * [GitHub project](https://github.com/chriscomeau/CoinyBlock)
 * [Web](http://coinyblock.com/)
