@@ -1,0 +1,51 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "AlertStyleAlert@2x~iphone.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "AlertStyleAlert-568h@2x~iphone.png",
+      "subtype" : "retina4",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "AlertStyleAlert-414w-736h@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "AlertStyleAlert~ipad.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "AlertStyleAlert-air@2x~ipad.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}
