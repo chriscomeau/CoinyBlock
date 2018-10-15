@@ -412,10 +412,10 @@ NSRecursiveLock *lock1;
     //self.window = [[CPMotionRecognizingWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     //crash
-    //[Crashlytics startWithAPIKey:@"85ef4e9599d0568f9d83bf8599a554aa160307d3"];
+    //[Crashlytics startWithAPIKey:@"???"];
     [Fabric with:@[[Crashlytics class]]];
     //[Fabric with:@[[Crashlytics class], [GameAnalytics class], [Optimizely class]]];
-    //[Optimizely startOptimizelyWithAPIToken:@"AANqYuEBIjJkhoQ7SUScwJi8W1BYg3ZE~10291341055" launchOptions:launchOptions];
+    //[Optimizely startOptimizelyWithAPIToken:@"???~10291341055" launchOptions:launchOptions];
 
     //google analytics
     [GAI sharedInstance].trackUncaughtExceptions = NO;
