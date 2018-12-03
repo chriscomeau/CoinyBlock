@@ -33,7 +33,7 @@
 			<array>
 				<string>coinblock</string>
 				<string>coinyblock</string>
-				<string>fb362594540602881</string>
+				<string>???</string>
 			</array>
 		</dict>
 	</array>
@@ -42,7 +42,7 @@
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>85ef4e9599d0568f9d83bf8599a554aa160307d3</string>
+		<string>???</string>
 		<key>Kits</key>
 		<array>
 			<dict>
@@ -55,9 +55,9 @@
 				<key>KitInfo</key>
 				<dict>
 					<key>api-key</key>
-					<string>a4435a3a49472040dba244f337e82609</string>
+					<string>???</string>
 					<key>api-secret</key>
-					<string>3818bd4735b828c3ae923448a05df1dee8f38985</string>
+					<string>???</string>
 				</dict>
 				<key>KitName</key>
 				<string>GameAnalytics</string>
@@ -66,7 +66,7 @@
 				<key>KitInfo</key>
 				<dict>
 					<key>socket_token</key>
-					<string>AANqYuEBIjJkhoQ7SUScwJi8W1BYg3ZE~10291341055</string>
+					<string>???</string>
 				</dict>
 				<key>KitName</key>
 				<string>Optimizely</string>
